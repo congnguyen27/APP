@@ -1,0 +1,18 @@
+{
+  "model_name"      : "VGG19",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+
+  "train_path"      : "E:\\Workspaces\\CNN\\Data\\train",
+  "test_path"       : "E:\\Workspaces\\CNN\\Data\\test",
+  
+  "features_path"   : "E:\\Workspaces\\CNN\\Output\\features.h5",
+  "labels_path"     : "E:\\Workspaces\\CNN\\Output\\labels.h5",
+  "results"         : "E:\\Workspaces\\CNN\\Output\\results.txt",
+  "classifier_path" : "E:\\Workspaces\\CNN\\Output\\classifier.pickle",
+  "model_path"      : "E:\\Workspaces\\CNN\\Output\\model",
+
+  "test_size"       : 0.20,
+  "seed"            : 9,
+  "num_classes"     : 5
+}
